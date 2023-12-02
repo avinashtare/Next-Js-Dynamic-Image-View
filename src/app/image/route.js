@@ -10,7 +10,7 @@ const loadFile = async (path) => {
   return fileContent;
 }
 const readRandomFile = async () => {
-  const randomNumber = Math.floor(Math.random() * 7) + 1;
+  const randomNumber = Math.floor(Math.random() * 15) + 1;
   const imagePath = path.join(process.cwd(), "src", "assets", "images", `${randomNumber}.png`);
 
   const fileContent = await loadFile(imagePath);
@@ -22,7 +22,6 @@ const readRandomFile = async () => {
 // load html file static 
 const loadhtmlfile = async () => {
   const htmlPath = path.join(process.cwd(), "src", "app", "image", `render.html`);
-  console.log(htmlPath)
 
   const fileContent = await loadFile(htmlPath);
   // return random html
