@@ -16,4 +16,6 @@ using this repo you got an idea how to serve random url images with only single 
 * Generate Random Image without chaning url:
 * Access the random image by navigating to the provided URL.
 * Example URL: http://localhost:3000/random-image
-* Demo URL: https://next-js-dynamic-image-view.vercel.app/
+* Demo URL: https://next-js-dynamic-image-view.vercel.app/  
+- -^- Open URL and reload page and see magic -^-
+- After Open link change img src link
